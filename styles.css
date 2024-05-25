@@ -159,3 +159,37 @@ body {
 }
 
 /* Fin estilos jhoan */
+
+/* inicio estilos Ana */
+.card-ana {
+  width: var(--card-width);
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2d3e;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#img-ana {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-card-ana {
+  text-align: center;
+  padding: 10px;
+  background-color: #3c3f4e;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+.info-card-ana h3, .info-card-ana h4 {
+  margin: 5px 0;
+  color: rgb(245, 245, 245);
+}
+
+/* fin estilos Ana */
