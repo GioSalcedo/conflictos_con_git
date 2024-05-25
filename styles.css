@@ -1,0 +1,15 @@
+.card {
+  background-color: #62347b;
+  width: calc(50vh /1.5);
+  height: 50vh;
+  padding: 10pxx;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  color: #d9c9db;
+
+}
