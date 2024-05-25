@@ -15,8 +15,10 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background: #191c29;
+  gap: 2rem;
 }
 
 .card-movie {
@@ -193,3 +195,16 @@ body {
 }
 
 /* fin estilos Ana */
+/* 
+estilos mateo */
+
+.card-mateo{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.card-mateo img{
+  width: 100%;
+}
