@@ -62,7 +62,7 @@ body {
   z-index: -1;
 }
 
-.card:hover .wrapper {
+.card-gio:hover .wrapper {
   transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
   box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
@@ -100,19 +100,19 @@ body {
   );
 }
 
-.card:hover .wrapper::before,
+.card-gio:hover .wrapper::before,
 .wrapper::after {
   opacity: 1;
 }
 
-.card:hover .wrapper::after {
+.card-gio:hover .wrapper::after {
   height: 120px;
 }
 .title {
   width: 100%;
   transition: transform 0.5s;
 }
-.card:hover .title {
+.card-gio:hover .title {
   transform: translate3d(0%, -50px, 100px);
 }
 
@@ -124,7 +124,7 @@ body {
   z-index: -1;
 }
 
-.card:hover .character {
+.card-gio:hover .character {
   opacity: 1;
   transform: translate3d(0%, -30%, 100px);
 }
